@@ -1,0 +1,191 @@
+#title
+{
+    background-color: #ff4c68;
+    color: #fff;
+}
+body
+{
+    font-family: 'Montserrat';
+}
+h1
+{
+    
+    font-weight:bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid
+{
+    padding:3% 15% 7%;
+} 
+h2
+{
+    font-size: larger;
+}
+/* navbar styling */
+.navbar
+{
+     padding:0; 
+    padding-bottom: 4.5rem;
+}
+.nav-item
+{
+    padding:0 18px;
+} 
+.nav-link
+{
+    font-size:1.2rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+/* download buttons */
+
+.download-button
+{
+    /* top right b l */
+    margin:5% 3% 3% 0;
+} 
+.phone
+{
+    position: absolute;
+    width:60%;
+    transform: rotate(25deg);
+    left:20%;
+}
+/* Feauters */
+.featurescontainer
+{
+  margin:0 15%;
+  background-color: #fff;
+  position: relative;
+  z-index:2 ;
+  padding: 30px;
+}
+#features
+{
+ padding:20px;
+ z-index:2;  
+ background-color: #fff;
+ position: relative;
+}
+#features i
+{
+    padding:10px;
+    color:#ef8172;
+}
+#features i:hover
+{
+    color:#ff4c68;
+}
+.box
+{
+    text-align: center;
+    padding:20px;
+}
+.box h3
+{
+    font-weight: bold;
+}
+.box p
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: #8f8f8f;
+}
+
+/* testimonials */
+#testimonials
+{
+    background-color: #ef8172;
+    text-align: center;
+    color:#fff;
+
+}
+.testimonial-content
+{
+  padding:3% 15%;
+}
+#testimonials h2
+{
+
+    font-size: 45px;
+    padding:40px;
+    font-weight: 700;
+}
+#testimonials img
+{
+    width:10%;
+    border-radius: 100%;
+}
+/* Press section */
+#press
+{
+    padding-top: 3%;
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+#press img
+{
+    width:15%;
+    margin:0 50px;
+}
+/* Pricing */
+#pricing h2
+{
+    font-size: 45px;
+    font-weight: 700;
+}
+#pricing
+{
+    padding:100px;
+    text-align: center;
+}
+.price-box
+{
+    padding:2% 3%;
+}
+/* call to action */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding:7% 15%;
+    text-align: center;
+    line-height: 2.5rem;
+}
+#cta h3{
+    font-size: 55px;
+    font-weight: 900;
+}
+/* footer */
+#footer
+{
+    background-color: #fff;
+    text-align: center;
+    line-height: 2.5rem;
+    margin-top: 5%;
+    padding:10px;
+}
+#footer i{
+    padding:10px;
+}
+#footer p{
+    color: #8f8f8f;
+}
+/* media queries */
+
+@media (max-width:1000px)
+{
+    #title{ text-align: center;}
+    .phone{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+
